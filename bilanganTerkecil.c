@@ -20,15 +20,12 @@ int bilanganTerkecil()
         while (num != -99)
         {
             if (num < min)
-            {
                 min = num;
-            }
             scanf("%d", &num);
         }
         printf("%d\n", min);
         break;
     }
-
     return 0;
 }
 
