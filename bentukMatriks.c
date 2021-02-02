@@ -12,16 +12,12 @@ int main()
             {
                 num++;
                 if (num == 10)
-                {
                     num = 0;
-                }
             }
             printf("%d", num);
             // cek spasi
             if (j < n - 1)
-            {
                 printf(" ");
-            }
         }
         printf("\n");
     }
