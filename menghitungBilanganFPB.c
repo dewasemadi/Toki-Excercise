@@ -26,9 +26,7 @@ int main()
             continue;
         }
         if (fpb(a, b) == c)
-        {
             x++;
-        }
         y++;
     }
 
