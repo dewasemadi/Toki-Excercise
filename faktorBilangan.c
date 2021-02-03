@@ -7,11 +7,8 @@ int faktorBilangan()
     for (int i = 2; i < num; i++)
     {
         if (num % i == 0)
-        {
             z += 1;
-        }
     }
-
     printf("%ld\n", z);
 }
 
