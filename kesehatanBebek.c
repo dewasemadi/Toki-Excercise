@@ -11,27 +11,19 @@ int main()
         while (num != 0)
         {
             if (num >= max)
-            {
                 max = num;
-            }
             if (num <= min)
-            {
                 min = num;
-            }
             scanf("%d", &num);
             if (num == -1)
-            {
                 break;
-            }
         }
         printf("%d %d\n", min, max);
         // kembaliin nilai min dan max ke semula
         max = INT_MIN;
         min = INT_MAX;
         if (num == -1)
-        {
             break;
-        }
         scanf("%d", &num);
     }
     return 0;
