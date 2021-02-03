@@ -9,17 +9,11 @@ int main()
     {
         c = b % 10;
         if (c == a)
-        {
             n++;
-        }
         b /= 10;
     }
     if (n == 0)
-    {
         printf("tidak ada\n");
-    }
     else
-    {
         printf("%ld\n", n);
-    }
 }
