@@ -8,13 +8,9 @@ int main()
     {
         scanf("%d", &num);
         if (num % 2 == 0)
-        {
             x++;
-        }
         else
-        {
             y++;
-        }
     }
     printf("%d %d\n", x, y);
     return 0;
