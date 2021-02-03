@@ -18,13 +18,9 @@ int main()
     {
         scanf("%d", &y);
         if (y % n == 0)
-        {
             printf("%.2f\n", num[y / n][n]);
-        }
         else
-        {
             printf("%.2f\n", num[y / n + 1][y % n]);
-        }
     }
     return 0;
 }
