@@ -11,13 +11,9 @@ int main()
 		scanf("%lf", &data);
 		sum+=data;
 		if(max<data)
-		{
 			max=data;
-		}
 		if(min>data)
-		{
 			min=data;
-		}
 		i++;
 	}
 	average=sum/n;
