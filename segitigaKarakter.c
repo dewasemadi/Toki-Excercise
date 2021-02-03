@@ -12,9 +12,7 @@ int main()
         {
             // cek cetak a kalo j=1 dan i!=n
             if (j == 1 && i != n)
-            {
                 printf("%c", a);
-            }
             else
             {
                 // kalo j paling ujung (i) cetak c
