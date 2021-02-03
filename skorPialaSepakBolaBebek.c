@@ -16,13 +16,9 @@ int main()
         totalKalah += k;
         totalMain = m + k + s;
         if (totalMain != n - 1)
-        {
             cek = true;
-        }
         if (m * 3 + s == max)
-        {
             counter = max;
-        }
         if (m * 3 + s > max)
         {
             counter = i;
@@ -31,13 +27,9 @@ int main()
     }
     // cetak nilai
     if (cek || counter == max || totalMenang != totalKalah)
-    {
         printf("-1\n");
-    }
     else
-    {
         printf("%ld %ld\n", counter, max);
-    }
     return 0;
 }
 /*
