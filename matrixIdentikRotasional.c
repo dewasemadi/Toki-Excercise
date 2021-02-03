@@ -48,13 +48,9 @@ void cetak(int num[size][size], int m, int n)
             printf("%d", num[i][j]);
             // cek spasi dan newline
             if (j == n - 1)
-            {
                 printf("\n");
-            }
             else
-            {
                 printf(" ");
-            }
         }
     }
 }
